@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/code/pybind_learn/classpybind/CMakeLists.txt
+  main.cpp
+    正在创建库 D:/code/pybind_learn/classpybind/build/Release/classpybind.lib 和对象 D:/code/pybind_learn/classpybind/build/Release/classpybind.exp
+  正在生成代码
+  已完成代码的生成
+  classpybind.vcxproj -> D:\code\pybind_learn\classpybind\build\Release\classpybind.cp39-win_amd64.pyd

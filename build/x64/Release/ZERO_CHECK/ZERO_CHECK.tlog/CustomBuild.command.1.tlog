@@ -1,0 +1,10 @@
+^D:\CODE\PYBIND_LEARN\CLASSPYBIND\BUILD\CMAKEFILES\63329057189D6F6FF0C122B129BFF679\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SD:/code/pybind_learn/classpybind -BD:/code/pybind_learn/classpybind/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/code/pybind_learn/classpybind/build/classpybind.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
